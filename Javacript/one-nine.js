@@ -19,15 +19,32 @@ console.log (" %cElzero %cWeb %cSchool",
  "color :  green ; font-size : 40px; font-weight: bold ;",
  "color : blue ; font-size : 40px; " , )
 // fourth assignments 
-console.group("Group 1")
+console.group("Group 1");
 console.log("Message one");
 console.log("Message two");
-console.group("Child Group")
+console.group("Child Group");
 console.log("Message one");
 console.log("Message two");
-console.group("Grand Child Group")
+console.groupEnd();
+console.group("Grand Child Group");
 console.log("Message one");
 console.log("Message two");
-console.group("Group 2")
+console.groupEnd();
+console.groupEnd();
+console.group("Group 2");
 console.log("Message one");
 console.log("Message two");
+console.groupEnd();
+// fifth assignments
+console.table(["ali", "hawraa","hassan","aya" ,"osama"])
+// sixth assignments 
+
+// first method
+// console.log("Iam In Console");
+// document.write("Iam In Page");
+
+// secound method
+/* 
+console.log("Iam In Console");
+document.write("Iam In Page");
+*/
