@@ -42,3 +42,12 @@ let b = 20;
 let c = b + "" + a;
 let d = c + "_"+ c;
 console.log(`_${a}_${c}_${d}_${b}_`); // _21_2021_2021_2021_20_
+// challange
+var theTitle = "Elzero",
+  theDescription = "Elzero Web School",
+  theDate = "25/10",
+  theDiv = ` <h3>Hello ${theTitle}</h3>
+    <p>${theDescription}</p>
+    <span>${theDate}</span>
+    `;
+document.write(theDiv.repeat(4));
