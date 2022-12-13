@@ -1,3 +1,4 @@
+// Assignments 1
 let day = "   Friday  ";
 
 switch (
