@@ -24,4 +24,6 @@ switch (
     break;
   default:
     console.log("Its Not A Valid Day");
-}
+// from the ps of elzero if challange
+let a = 1;
+a < 10 ? console.log(10) : a >= 10 && a <= 40 ? console.log(10, 40) : a > 40 ? console.log("a > 40") : console.log("no");
